@@ -14,5 +14,5 @@ def find_max(l):
         else:
             return l[0]
 
-print(find_max([1, 4, 45, 6, -50, 10, 2]))
+print(find_max([1000, 4, 45, 6, -50, 10, 2,100]))
 # => 45
