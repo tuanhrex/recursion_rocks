@@ -8,7 +8,11 @@ def find_max(l):
         return l[0]
     
     else:
-        return max(l[0], find_max(l[1:]))
+        largest = find_max(l[1:])
+        if largest > l[0]:
+            return largest
+        else:
+            return l[0]
 
 print(find_max([1, 4, 45, 6, -50, 10, 2]))
 # => 45
