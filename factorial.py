@@ -5,7 +5,17 @@
 
 def factorial(n):
     # Write code here
-    pass
+    
 
-# print(factorial(5))
+    # Compute the nth term
+    if n == 1:
+        return n
+    else: 
+        return (factorial(n-1) * n)
+    
+    
+    # cache the value and return it
+    
+
+print(factorial(5))
 # => 120
