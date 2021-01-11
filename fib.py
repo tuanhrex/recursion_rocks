@@ -35,7 +35,7 @@ def fib(n):
 # => 0
 # print(fib(1))
 # => 1
-print(fib(2))
+# print(fib(2))
 # => 1
-print(fib(7))
+print(fib(30))
 # => 13
